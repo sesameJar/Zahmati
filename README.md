@@ -1,14 +1,14 @@
-##Our Website : MashhadPEDIA
-This Project Describe Iran-Mashhad For Tourists. GoldenTECH Co, Is Owner Of This Website.
+##Our Website : MazzGraphic
+This Project Introduce "Mr Mohammad Ali Zahmati" On WWW. He Is Owner Of This Website.
 
 
 ###Contributing
 
-* Check our projec's website and report any bugs or ideas in [issues](https://github.com/Goldentech/MashhadPEDIA/issues)
+* Check our projec's website and report any bugs or ideas in [issues](https://github.com/Goldentech/MazzGraphic/issues)
 
 * Check our project's source with
 ```
-    git clone https://github.com/Goldentech/MashhadPEDIA.git
+    git clone https://github.com/Goldentech/MazzGraphic.git
 ```
 
 
@@ -27,8 +27,8 @@ This Project Describe Iran-Mashhad For Tourists. GoldenTECH Co, Is Owner Of This
 
 ###Domain names Registered :###
 
-http://www.MashhadPEDIA.com
-http://www.MashhadPEDIA.ir
+http://www.MazzGraphic.com
+http://www.MazzGraphic.ir
 
 ### All rights reserved ###
 Please note that GoldenTECH.org is a curated site and that we reserve the right to refuse any listing for any reason.
