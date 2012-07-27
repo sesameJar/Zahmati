@@ -1,4 +1,4 @@
-##Our Website : MazzGraphic
+##Our Website : Zahmati
 This Project Introduce "Mr Mohammad Ali Zahmati" On WWW. He Is Owner Of This Website.
 
 
@@ -8,7 +8,7 @@ This Project Introduce "Mr Mohammad Ali Zahmati" On WWW. He Is Owner Of This Web
 
 * Check our project's source with
 ```
-    git clone https://github.com/Goldentech/MazzGraphic.git
+    git clone https://github.com/Goldentech/Zahmati.git
 ```
 
 
@@ -27,8 +27,8 @@ This Project Introduce "Mr Mohammad Ali Zahmati" On WWW. He Is Owner Of This Web
 
 ###Domain names Registered :###
 
-http://www.MazzGraphic.com
-http://www.MazzGraphic.ir
+http://www.Zahmati.com
+http://www.Zahmati.ir
 
 ### All rights reserved ###
 Please note that GoldenTECH.org is a curated site and that we reserve the right to refuse any listing for any reason.
