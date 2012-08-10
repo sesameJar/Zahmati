@@ -1,0 +1,33 @@
+.*{
+	outline: 1px solid red;
+}
+
+div.main-container{
+	width: 950px;
+	padding-top: 1px;
+	float: right;
+	background-color: #8a837d;
+	direction: rtl;
+	font-family: Tahoma;
+	text-align: right;
+	font-size: 12px;
+	line-height: 1.2;
+}
+
+section.body{
+	min-height: 600px;
+}
+
+section.body nav ul{
+	list-style-type: none;
+}
+
+section.body nav ul li{
+	float: left;
+	border-bottom: 3px solid black;
+	margin-right: 3px;
+}
+
+section.body nav ul li a{
+	font-
+}
