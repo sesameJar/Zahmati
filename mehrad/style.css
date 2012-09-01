@@ -1,4 +1,4 @@
-.clear{
+.clear {
 	clear      : both;
 	width      : 0 !important;
 	height     : 0 !important;
@@ -9,13 +9,13 @@
 	border     : 0 none !important;
 }
 
-body{
+body {
 	background-color : #8a837d;
 }
 
 div.main-container {
 	margin         : 0 auto;
-	width          : 950px;
+	width: 950px;
 	padding-top    : 1px;
 	direction      : rtl;
 	font-family    : Tahoma;
