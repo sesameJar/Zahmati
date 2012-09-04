@@ -24,11 +24,11 @@ div.main-container {
 	text-decoration : none;
 }
 
-section.body {
-	margin : 300px auto;
+header.body {
+	margin : 200px auto;
 }
 
-section.body section.logo {
+header.body section.logo {
 	float              : left;
 	width              : 180px;
 	height             : 44px;
@@ -39,11 +39,11 @@ section.body section.logo {
 	-moz-transition    : all 300ms;	
 }
 
-section.body section.logo img {
+header.body section.logo img {
 	
 }
 
-section.body section.logo:hover {
+header.body section.logo:hover {
 	opacity            : 1;
 	-webkit-transition : all 300ms;
 	-ms-transition     : all 300ms;
@@ -51,17 +51,17 @@ section.body section.logo:hover {
 	-moz-transition    : all 300ms;
 }
 
-section.body nav {
+header.body nav {
 	padding-top : 15px;
 	width: 770px;
 	float: left;
 }
 
-section.body nav menu {
+header.body nav menu {
 	list-style-type : none;
 }
 
-section.body nav menu li {
+header.body nav menu li {
 	float              : left;
 	padding-bottom     : 2px;
 	border-bottom      : 2px solid #2e2c2a;
@@ -72,7 +72,7 @@ section.body nav menu li {
 	-moz-transition    : all 300ms;
 }
 
-section.body nav menu li:hover {
+header.body nav menu li:hover {
 	border-bottom      : 2px solid #c0c0c0;
 	-webkit-transition : all 300ms;
 	-ms-transition     : all 300ms;
@@ -80,7 +80,7 @@ section.body nav menu li:hover {
 	-moz-transition    : all 300ms;
 }
 
-section.body nav menu li a {
+header.body nav menu li a {
 	float              : left;
 	font-family        : inherit;
 	text-align         : left;
@@ -96,7 +96,7 @@ section.body nav menu li a {
 	-moz-transition    : all 300ms;
 }
 
-section.body nav menu li:hover a {
+header.body nav menu li:hover a {
 	color              : #c0c0c0;
 	background-color   : #2e2c2a;
 	-webkit-transition : all 300ms;
@@ -106,6 +106,7 @@ section.body nav menu li:hover a {
 }
 
 footer {
+	margin-top: 1000px;
 	min-height: 30px;
 	padding   : 10px auto;
 }
@@ -114,7 +115,7 @@ footer h2{
 	text-align        : center;
 	font-family       : inherit;
 	direction         : ltr;
-	font-size         : 22px;
+	font-size         : 20px;
 	color             : white;
 	text-transform    : uppercase;
 	letter-spacing    : 2px;
