@@ -14,14 +14,14 @@ body {
 }
 
 div.main-container {
-	margin         : 0 auto;
-	padding-top    : 1px;
-	direction      : rtl;
-	font-family    : Tahoma;
-	text-align     : right;
-	font-size      : 12px;
-	line-height    : 1.2;
-	text-decoration: none;
+	margin          : 0 auto;
+	padding-top     : 1px;
+	direction       : rtl;
+	font-family     : Tahoma;
+	text-align      : right;
+	font-size       : 12px;
+	line-height     : 1.2;
+	text-decoration : none;
 }
 
 section.body {
@@ -61,47 +61,47 @@ section.body nav menu {
 }
 
 section.body nav menu li {
-	float             : right;
-	padding-bottom    : 2px;
-	border-bottom     : 2px solid #2e2c2a;
-	margin-left       : 2px;
-	-webkit-transition: all 300ms;
-	-ms-transition    : all 300ms;
-	-o-transition     : all 300ms;
-	-moz-transition   : all 300ms;
+	float              : right;
+	padding-bottom     : 2px;
+	border-bottom      : 2px solid #2e2c2a;
+	margin-left        : 2px;
+	-webkit-transition : all 300ms;
+	-ms-transition     : all 300ms;
+	-o-transition      : all 300ms;
+	-moz-transition    : all 300ms;
 }
 
 section.body nav menu li:hover {
-	border-bottom     : 2px solid #c0c0c0;
-	-webkit-transition: all 300ms;
-	-ms-transition    : all 300ms;
-	-o-transition     : all 300ms;
-	-moz-transition   : all 300ms;
+	border-bottom      : 2px solid #c0c0c0;
+	-webkit-transition : all 300ms;
+	-ms-transition     : all 300ms;
+	-o-transition      : all 300ms;
+	-moz-transition    : all 300ms;
 }
 
 section.body nav menu li a {
-	float             : left;
-	font-family       : inherit;
-	text-align        : left;
-	direction         : ltr;
-	text-transform    : uppercase;
-	color             : #2e2c2a;
-	background-color  : #c0c0c0;
-	padding-right     : 69px;
-	text-decoration   : inherit;
-	-webkit-transition: all 300ms;
-	-ms-transition    : all 300ms;
-	-o-transition     : all 300ms;
-	-moz-transition   : all 300ms;
+	float              : left;
+	font-family        : inherit;
+	text-align         : left;
+	direction          : ltr;
+	text-transform     : uppercase;
+	color              : #2e2c2a;
+	background-color   : #c0c0c0;
+	padding-right      : 69px;
+	text-decoration    : inherit;
+	-webkit-transition : all 300ms;
+	-ms-transition     : all 300ms;
+	-o-transition      : all 300ms;
+	-moz-transition    : all 300ms;
 }
 
 section.body nav menu li:hover a {
-	color             : #c0c0c0;
-	background-color  : #2e2c2a;
-	-webkit-transition: all 300ms;
-	-ms-transition    : all 300ms;
-	-o-transition     : all 300ms;
-	-moz-transition   : all 300ms;
+	color              : #c0c0c0;
+	background-color   : #2e2c2a;
+	-webkit-transition : all 300ms;
+	-ms-transition     : all 300ms;
+	-o-transition      : all 300ms;
+	-moz-transition    : all 300ms;
 }
 
 footer {
@@ -124,38 +124,38 @@ footer h2{
 }
 
 footer h2:hover {
-	color             : #c0c0c0;
-	-webkit-transition: all 300ms;
-	-ms-transition    : all 300ms;
-	-o-transition     : all 300ms;
-	-moz-transition   : all 300ms;
+	color              : #c0c0c0;
+	-webkit-transition : all 300ms;
+	-ms-transition     : all 300ms;
+	-o-transition      : all 300ms;
+	-moz-transition    : all 300ms;
 
 }
 
 footer p {
-	text-align    : center;
-	font-family   : inherit;
-	direction     : ltr;
-	font-size     : inherit;
-	color         : #c0c0c0;
-	text-transform: capitalize;
-	letter-spacing: 2px;
-	margin-bottom : 15px;
+	text-align     : center;
+	font-family    : inherit;
+	direction      : ltr;
+	font-size      : inherit;
+	color          : #c0c0c0;
+	text-transform : capitalize;
+	letter-spacing : 2px;
+	margin-bottom  : 15px;
 }
 
 footer a {
-	text-decoration   : none;
-	color             : #c0c0c0;
-	-webkit-transition: all 300ms;
-	-ms-transition    : all 300ms;
-	-o-transition     : all 300ms;
-	-moz-transition   : all 300ms;
+	text-decoration    : none;
+	color              : #c0c0c0;
+	-webkit-transition : all 300ms;
+	-ms-transition     : all 300ms;
+	-o-transition      : all 300ms;
+	-moz-transition    : all 300ms;
 }
 
 footer a:hover {
-	color             : #fc0;
-	-webkit-transition: all 300ms;
-	-ms-transition    : all 300ms;
-	-o-transition     : all 300ms;
-	-moz-transition   : all 300ms;
+	color              : #fc0;
+	-webkit-transition : all 300ms;
+	-ms-transition     : all 300ms;
+	-o-transition      : all 300ms;
+	-moz-transition    : all 300ms;
 }
