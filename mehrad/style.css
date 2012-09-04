@@ -16,7 +16,7 @@ body {
 div.main-container {
 	margin          : 0 auto;
 	padding-top     : 1px;
-	direction       : rtl;
+	direction       : ltr;
 	font-family     : Tahoma;
 	text-align      : right;
 	font-size       : 12px;
@@ -25,7 +25,7 @@ div.main-container {
 }
 
 header.body {
-	margin : 200px auto;
+	margin : 100px auto;
 }
 
 header.body section.logo {
@@ -53,7 +53,7 @@ header.body section.logo:hover {
 
 header.body nav {
 	padding-top : 15px;
-	width: 770px;
+	width: 790px;
 	float: left;
 }
 
@@ -88,7 +88,7 @@ header.body nav menu li a {
 	text-transform     : uppercase;
 	color              : #2e2c2a;
 	background-color   : #c0c0c0;
-	padding-right      : 69px;
+	padding            : 1px 72px 0px 1px;
 	text-decoration    : inherit;
 	-webkit-transition : all 300ms;
 	-ms-transition     : all 300ms;
@@ -106,7 +106,7 @@ header.body nav menu li:hover a {
 }
 
 footer {
-	margin-top: 1000px;
+	margin-top: 400px;
 	min-height: 30px;
 	padding   : 10px auto;
 }
@@ -115,7 +115,7 @@ footer h2{
 	text-align        : center;
 	font-family       : inherit;
 	direction         : ltr;
-	font-size         : 20px;
+	font-size         : 18px;
 	color             : white;
 	text-transform    : uppercase;
 	letter-spacing    : 2px;
@@ -160,4 +160,9 @@ footer a:hover {
 	-ms-transition     : all 300ms;
 	-o-transition      : all 300ms;
 	-moz-transition    : all 300ms;
+}
+
+article.content div.bio{
+	min-height: 1px;
+	background-color:#8f8382;
 }
