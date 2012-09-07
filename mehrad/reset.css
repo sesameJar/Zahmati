@@ -28,7 +28,7 @@
 
 	/* Correction:margin/padding reset caused too small select boxes. */
 	option {
-		padding-left:0.4em;
+		padding-right:0.4em;
 	} /* RTL */
 
 	select {
@@ -44,7 +44,7 @@
 		font-size:100.01%; /* Fix for rounding errors when scaling font sizes in older versions of Opera browser */
 		background:#fff;
 		color:#000;
-		text-align:right; /* RTL */
+		text-align:left; /* RTL */
 		line-height: 1;
 	}
 
