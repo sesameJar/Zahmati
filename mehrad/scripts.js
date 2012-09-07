@@ -1,21 +1,18 @@
 $( function () {
 	var menuLists 	  = $('header.body nav menu li'),
-		contentTarget = $('article.content div.bio');
+		contentTarget = $('article.content div');
 
 	menuLists.each( function () {
 
 		var that = this;
 
-		setTimeout(function(){
-			
-			$(that).click(function(){
-				
-				$(that).addClass('active');
-				contentTarget.animate({
+		$(that).click(function(){
+			setTimeout(function(){
+				contentTarget.eq($(that).index()).animate({
 					height:200
-				},300,contentTarget.css({display:'block'}))
-			});
-		},800);
+				},300)
+			},400)
+		})
 		
 
 

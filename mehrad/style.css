@@ -20,7 +20,7 @@ div.main-container {
 	padding-top     : 1px;
 	direction       : ltr;
 	font-family     : Tahoma;
-	text-align      : right;
+	text-align      : left;
 	font-size       : 12px;
 	line-height     : 1.2;
 	text-decoration : none;
@@ -56,8 +56,8 @@ header.body section.logo:hover {
 
 header.body nav {
 	padding-top : 15px;
-	width: 790px;
-	float: left;
+	width       : 790px;
+	float       : left;
 }
 
 header.body nav menu {
@@ -76,7 +76,7 @@ header.body nav menu li {
 }
 
 header.body nav menu li:first-child {
-	margin-left: 0;
+	margin-left : 0;
 }
 
 header.body nav menu li:hover,header.body nav menu li.active {
@@ -113,23 +113,23 @@ header.body nav menu li:hover a,header.body nav menu li.active a {
 }
 
 footer {
-	margin-top: 400px;
-	min-height: 30px;
-	padding   : 10px auto;
+	margin-top : 400px;
+	min-height : 30px;
+	padding    : 10px auto;
 }
 
 footer h2{
-	text-align        : center;
-	font-family       : inherit;
-	direction         : ltr;
-	font-size         : 18px;
-	color             : white;
-	text-transform    : uppercase;
-	letter-spacing    : 2px;
-	-webkit-transition: all 300ms;
-	-ms-transition    : all 300ms;
-	-o-transition     : all 300ms;
-	-moz-transition   : all 300ms;
+	text-align         : center;
+	font-family        : inherit;
+	direction          : ltr;
+	font-size          : 18px;
+	color              : white;
+	text-transform     : uppercase;
+	letter-spacing     : 2px;
+	-webkit-transition : all 300ms;
+	-ms-transition     : all 300ms;
+	-o-transition      : all 300ms;
+	-moz-transition    : all 300ms;
 }
 
 footer h2:hover {
@@ -169,8 +169,8 @@ footer a:hover {
 	-moz-transition    : all 300ms;
 }
 
-article.content div.bio{
+article.content div{
 	min-height       : 1px;
 	background-color : #c0c0c0;
-	display: none;
+	display          : none;
 }
