@@ -174,3 +174,10 @@ article.content div{
 	background-color : #c0c0c0;
 	display          : none;
 }
+
+article.content div.logo div{
+	width:100px;
+	min-height: 200px;
+	float: left;
+	
+}
