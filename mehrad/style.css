@@ -169,15 +169,47 @@ footer a:hover {
 	-moz-transition    : all 300ms;
 }
 
-article.content div{
-	min-height       : 1px;
+article.content > div{
 	background-color : #c0c0c0;
 	display          : none;
 }
-
-article.content div.logo div{
-	width:100px;
-	min-height: 200px;
-	float: left;
-	
+article.content > div ul{
+	float : left;
+	width : 100px;
+	min-height: 500px;
 }
+
+article.content > div ul li{
+	width:75px;
+	height: 75px;
+	background-color: #555a55;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
