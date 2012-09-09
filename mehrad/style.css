@@ -169,25 +169,33 @@ footer a:hover {
 	-moz-transition    : all 300ms;
 }
 
-article.content > div{
+article.content > div {
 	background-color : #c0c0c0;
 	display          : none;
 }
-article.content > div ul{
-	float : left;
-	width : 100px;
-	min-height: 500px;
+article.content  div.logo ul {
+	float      : left;
+	width      : 100px;
+	min-height : 500px;
+	background-color : #555a55;
 }
 
-article.content > div ul li{
-	width:75px;
-	height: 75px;
-	background-color: #555a55;
+article.content  div.logo ul li {
+	width            : 75px;
+	height           : 75px;
+	background-color : #555a55;
 }
 
+article.content  div.logo div#loadplace {
+	margin-left     : 100px;
+	min-height      : 500px;
+	padding-left    : 10px;
+	background-color: #666a66;
+}
 
-
-
+article.content  div.logo ul li:hover {
+	background-color:#444c44;
+}
 
 
 

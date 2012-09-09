@@ -1,6 +1,16 @@
 $( function () {
 	var menuLists 	  = $(' header.body nav menu li ' ),
-		contentTarget = $(' article.content div ');
+		contentTarget = $(' article.content > div '),
+		logoLists     = $(' article.content  div.logo ul li '),
+		loadPlace     = $(' article.content  div.logo div#loadplace ')
+		logoLists.each(function(){
+			$(this).click(function(){
+				$.ajax({url:"../images/BOOK & magazin/Untitled-1.jpg",success:function(result){
+    				loadPlace.html(result);
+ 				}})
+				;
+			});
+		});
 
 	menuLists.each( function () {
 
