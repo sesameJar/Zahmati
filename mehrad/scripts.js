@@ -6,7 +6,7 @@ $( function () {
 		logoLists.each(function(){
 			$(this).click(function(){
 				$.ajax({url:"../images/BOOK & magazin/Untitled-1.jpg",success:function(result){
-    				loadPlace.html(result)
+    				loadPlace.html(result);
  				}})
 				;
 			});
