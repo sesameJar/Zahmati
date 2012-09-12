@@ -12,13 +12,13 @@ $( function () {
 			});
 		});
 
-	menuLists.each( function () {
+	menuLists.click( function () {
 
-		var that = this;
-
-		$(that).click( function() {
+		var that         = this,
+			targetHeight = $(this).css('height');
 
 			if( contentTarget.eq( $(that).index() ).css( 'display' ) == 'none' ){
+
 				$(that).addClass('active');
 
 				contentTarget.eq( $(that).index() ).animate({
@@ -29,7 +29,7 @@ $( function () {
 
 					contentTarget.eq( $(that).index() ).animate( { 
 
-						height : 300
+						'min-height' : targetHeight
 
 					},300)
 				})
@@ -38,9 +38,10 @@ $( function () {
 
 			else{
 				$(that).removeClass('active');
+
 				contentTarget.eq( $(that).index() ).animate({
 
-					height:0
+					'min-height' : 0
 
 				},300,'linear', function() {
 
@@ -49,6 +50,6 @@ $( function () {
 				});
 
 			}
-		})	
+		
 	});
 });

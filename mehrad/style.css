@@ -34,12 +34,12 @@ header.body section.logo {
 	float              : left;
 	width              : 180px;
 	height             : 44px;
-	opacity            : 0.3;
+	opacity            : 0.4;
 	margin-top         : -10px;
-	-webkit-transition : all 300ms;
-	-ms-transition     : all 300ms;
-	-o-transition      : all 300ms;
-	-moz-transition    : all 300ms;	
+	-webkit-transition : all 900ms;
+	-ms-transition     : all 900ms;
+	-o-transition      : all 900ms;
+	-moz-transition    : all 900ms;	
 }
 
 header.body section.logo img {
@@ -56,7 +56,7 @@ header.body section.logo:hover {
 
 header.body nav {
 	padding-top : 15px;
-	width       : 790px;
+	width       : 965px;
 	float       : left;
 }
 
@@ -95,7 +95,7 @@ header.body nav menu li a {
 	text-transform     : uppercase;
 	color              : #2e2c2a;
 	background-color   : #c0c0c0;
-	padding            : 1px 72px 0px 1px;
+	padding            : 1px 65px 0px 1px;
 	text-decoration    : inherit;
 	-webkit-transition : all 300ms;
 	-ms-transition     : all 300ms;
@@ -174,27 +174,30 @@ article.content > div {
 	display          : none;
 }
 article.content  div.logo ul {
-	float      : left;
-	width      : 100px;
-	min-height : 500px;
-	background-color : #555a55;
+	float            : left;
+	width            : 100px;
+	min-height       : 500px;
+	background-color : #B9B7B7;
 }
 
 article.content  div.logo ul li {
-	width            : 75px;
-	height           : 75px;
-	background-color : #555a55;
+	width              : 75px;
+	height             : 75px;
+	background-color   : #444c44;
+	-webkit-transition : all 400ms;
+	margin-bottom      : 2px;
 }
 
 article.content  div.logo div#loadplace {
-	margin-left     : 100px;
-	min-height      : 500px;
-	padding-left    : 10px;
-	background-color: #666a66;
+	margin-left      : 500px;
+	min-height       : 500px;
+	padding-left     : 10px;
+	background-color : #c0c0c0;
 }
 
 article.content  div.logo ul li:hover {
-	background-color:#444c44;
+	background-color : #444c44;
+	margin-left      : 10px;
 }
 
 
