@@ -6,8 +6,8 @@ $( function () {
 		logoSlidePre    = $(' article.content  div.logo div.little div#prearrow '),
 		logoSlideNext   = $(' article.content  div.logo div.little div#nextarrow '),
 		logoTrain       = $(' article.content  div.logo ul '),
-		logoLists       = $(' article.content  div.logo ul li '),
-		loadPlace       = $(' article.content  div.logo div#loadplace ');
+		logoLists       = $(' article.content  div.logo ul li a '),
+		loadPlace       = $(' article.content  div.logo div#loadplace img ');
 
 	menuLists.click( function () {
 
@@ -72,8 +72,11 @@ $( function () {
 
 	logoLists.click(function(){
 
-		var imgUrl = $(this).css('background-image');
-		alert(imgUrl);
+		var thumbnailHref = $(this).attr('href');
+
+		loadplace.attr('scr', thumbnailHref);
+
+		return false;
 
 	})
 
