@@ -65,7 +65,9 @@
 				</div>
 				<div id="nextarrow"></div>
 			</div>
-			<div id="loadplace"></div>
+			<div id="loadplace">
+				<img src="../images/logo/atolie-sarv.jpg" alt="" />
+			</div>
 		</div>
 	</article>
 	<footer>
