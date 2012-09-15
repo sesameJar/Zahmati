@@ -193,8 +193,8 @@ article.content  div.logo div.little div#prearrow {
 }
 
 article.content  div.logo div.little div#nextarrow {
-	width      : 100px;
-	min-height : 30px;
+	width           : 100px;
+	min-height      : 30px;
 	background-color: #222;
 }
 
