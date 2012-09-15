@@ -214,10 +214,17 @@ article.content  div.logo ul li {
 }
 
 article.content  div.logo div#loadplace {
-	margin-left      : 500px;
+	margin-left      : 530px;
 	min-height       : 500px;
+	width            : 580px;
 	padding-left     : 10px;
 	background-color : #c0c0c0;
+}
+
+article.content  div.logo div#loadplace img {
+	display    : block;
+	width      : 580px;
+	min-height : 500px;
 }
 
 article.content  div.logo ul li:hover {
