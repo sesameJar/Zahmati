@@ -76,6 +76,8 @@
 				<input type="text" class="text" name="email" id="email" placeholder="Type Your Email!" />
 				<label for="message">Message :</label>
 				<textarea name="message" id="message" cols="30" rows="10" placeholder="Share Your Id !"></textarea>
+				<input type="submit" value="send" class="button" />
+				<input type="reset" value="again!" class="button" />
 			</form>
 		</div>
 	</article>
@@ -83,7 +85,7 @@
 		<h2>graphic designer</h2>
 		<p>
 			designed by : mohammad zahmati<br />
-			code developed by : <a href="http://goldentech.org">goldenTECH.org</a><br />
+			code developed by : <a class="goldentech" href="http://goldentech.org">goldenTECH.org</a><br />
 			copyright 2012
 		</p>
 	</footer>

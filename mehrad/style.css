@@ -161,7 +161,7 @@ footer a {
 	-moz-transition    : all 300ms;
 }
 
-footer a:hover {
+footer:hover a.goldentech {
 	color              : #fc0;
 	-webkit-transition : all 300ms;
 	-ms-transition     : all 300ms;
@@ -237,14 +237,13 @@ div.contact-us {
 }
 
 div.contact-us form {
-	display   : block;
-	min-height: 200px;
-	padding   : 20px 0 30px 10px;
+	display    : block;
+	min-height : 200px;
+	padding    : 20px 0 30px 10px;
 }
 
 div.contact-us form label {
 	font-size : 15px;
-
 }
 
 div.contact-us form input.text {
@@ -257,9 +256,9 @@ div.contact-us form input.text {
 	-webkit-transition : all 700ms;
 }
 
-div.contact-us form input.txt:hover,div.contact-us form input.text:focus {
+div.contact-us form input.text:hover,div.contact-us form input.text:focus {
 	background-color : #d0d0d0;
-	width            :120px;
+	width            : 120px;
 }
 
 
