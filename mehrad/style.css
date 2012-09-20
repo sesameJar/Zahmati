@@ -236,17 +236,17 @@ div.contact-us {
 
 }
 
-div.contact-us form {
+div.contact-us form#contact-form {
 	display    : block;
 	min-height : 200px;
 	padding    : 20px 0 30px 10px;
 }
 
-div.contact-us form label {
+div.contact-us form#contact-form label {
 	font-size : 15px;
 }
 
-div.contact-us form input.text {
+div.contact-us form#contact-form input.text {
 	display            : block;
 	width              : 100px;
 	border             : 1px solid #222;
@@ -256,12 +256,12 @@ div.contact-us form input.text {
 	-webkit-transition : all 700ms;
 }
 
-div.contact-us form input.text:hover,div.contact-us form input.text:focus {
+div.contact-us form#contact-form input.text:hover,div.contact-us form input.text:focus {
 	background-color : #d0d0d0;
 	width            : 120px;
 }
 
-
+div.contactus
 
 
 
