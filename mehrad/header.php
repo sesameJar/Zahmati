@@ -32,3 +32,4 @@
 		<section class="logo"><img src="../images/zahmati-logo.png" alt="zahmati" /></section>
 		<div class="clear"></div>
 	</header>
+	<article class="content">
