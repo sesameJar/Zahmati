@@ -1,10 +1,4 @@
-<?php
-
-	include './header.php';
-
-?>
-		
-		<div class="logo">
+<div class="logo">
 			<div class="little">
 				<div id="prearrow"></div>
 				<div class="little-slide">
@@ -33,5 +27,4 @@
 				<img src="../images/logo/atolie-sarv.jpg" alt="" />
 			</div>
 		</div>
-	<?php
-		include './footer.php';
+

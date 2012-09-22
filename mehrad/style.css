@@ -56,7 +56,7 @@ header.body section.logo:hover {
 
 header.body nav {
 	padding-top : 15px;
-	width       : 965px;
+	width       : 798px;
 	float       : left;
 }
 
@@ -236,54 +236,57 @@ div.contact-us {
 
 }
 
-div.contact-us form#contact-form {
+div.contact-us form {
 	display    : block;
 	min-height : 200px;
 	padding    : 20px 0 30px 10px;
 }
 
-div.contact-us form#contact-form label {
-	font-size : 15px;
+div.contact-us form label {
+	font-size : 12px;
+	color: #333;
 }
 
-div.contact-us form#contact-form input.text {
+div.contact-us form input.text {
 	display            : block;
-	width              : 100px;
-	border             : 1px solid #222;
+	width              : 220px;
 	padding            : 3px 0 3px 2px;
 	margin             : 5px 0 5px;
-	background-color   : #c0c0c0;
+	background-color   : #d0d0d0;
 	-webkit-transition : all 700ms;
+	-moz-transition    : all 700ms;
+	border             : 1px solid #999;
 }
 
-div.contact-us form#contact-form input.text:hover,div.contact-us form input.text:focus {
+div.contact-us form input.text:hover {
+	background-color : #f0f0f0;
+}
+
+div.contact-us form input.text:focus {
+	background-color : #f0f0f0;
+}
+
+div.contact-us form textarea {
+	display          : block;
+	padding          : 3px 0 3px 2px;
+	margin           : 5px 0 5px;
 	background-color : #d0d0d0;
-	width            : 120px;
+	border           : 1px solid #999;
+	width            : 220px;
 }
 
-div.contactus
+div.contact-us form textarea:hover,div.contact-us form textarea:focus {
+	background-color : #f0f0f0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+div.contact-us form input.button{
+	width         : 48px;
+	height        : 22px;
+	border-radius : 1px;
+	box-shadow    : 0 none;
+	border        : 1px dotted #999;
+	text-align    : center;
+}
 
 
 
