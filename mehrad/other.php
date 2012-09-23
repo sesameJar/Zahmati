@@ -2,7 +2,7 @@
 
 	include './header.php';
 ?>
-		<div class="books">
+		<div class="others">
 			<div class="little">
 				<div id="prearrow"></div>
 				<div class="little-slide">
