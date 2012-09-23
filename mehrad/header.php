@@ -19,13 +19,12 @@
 	<header class="body">
 		<nav>
 			<menu>
-				<li><a href="#">biography .</a></li>
-				<li><a href="#">about graphic .</a></li>
-				<li><a href="#">poster .</a></li>
-				<li><a href="#">logo .</a></li>
-				<li><a href="#">book & magazine .</a></li>
-				<li><a href="#">others .</a></li>
-				<li><a href="#">connect .</a></li>
+				<li><a href="index.php">biography .</a></li>
+				<li><a href="poster.php">poster .</a></li>
+				<li><a href="posters.php">logo .</a></li>
+				<li><a href="books.php">book & magazine .</a></li>
+				<li><a href="other.php">other .</a></li>
+				<li><a href="contact.php">connect .</a></li>
 				<li class="clear"></li>
 			</menu>
 		</nav>
