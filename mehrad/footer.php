@@ -1,8 +1,8 @@
 </article>
 <footer>
-		<h2>graphic designer</h2>
+		<h2>Graphic Designer</h2>
 		<p>
-			designed by : mohammad zahmati<br />
+			designed by : Mohammad Zahmati<br />
 			code developed by : <a class="goldentech" href="http://goldentech.org">GoldenTECH</a><br />
 			copyright 2012
 		</p>
