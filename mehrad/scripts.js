@@ -34,7 +34,7 @@ $( function () {
 
 		var thumbnailHref = $(this).attr('href');
 
-		$('#loadplace img').attr('scr', thumbnailHref);
+		$('#loadplace img').attr('src',thumbnailHref);
 
 		return false;
 
