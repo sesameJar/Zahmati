@@ -173,31 +173,31 @@ article.content > div {
 	background-color : #c0c0c0;
 }
 
-article.content  div.logo div.little{
+article.content  div div.little{
 	float  : left;
 	width  : 100px;
 	height : 460px;
 }
 
-article.content  div.logo div.little div.little-slide {
+article.content  div div.little div.little-slide {
 	height   : 380px;
 	overflow : hidden;
 	width    : 100px;
 }
 
-article.content  div.logo div.little div#prearrow {
+article.content  div div.little div#prearrow {
 	width            : 100px;
 	min-height       : 30px;
 	background-color : #222;
 }
 
-article.content  div.logo div.little div#nextarrow {
+article.content  div div.little div#nextarrow {
 	width            : 100px;
 	min-height       : 30px;
 	background-color : #222;
 }
 
-article.content  div.logo ul {
+article.content  div ul {
 	width              : 100px;
 	min-height         : 500px;
 	background-color   : #B9B7B7;
@@ -205,14 +205,14 @@ article.content  div.logo ul {
 	-webkit-transition : all 250ms;
 }
 
-article.content  div.logo ul li {
+article.content  div ul li {
 	width              : 75px;
 	height             : 75px;
 	-webkit-transition : all 400ms;
 	margin-bottom      : 2px;
 }
 
-article.content  div.logo div#loadplace {
+article.content  div div#loadplace {
 	margin-left      : 530px;
 	min-height       : 500px;
 	width            : 580px;
@@ -220,13 +220,13 @@ article.content  div.logo div#loadplace {
 	background-color : #c0c0c0;
 }
 
-article.content  div.logo div#loadplace img {
+article.content  div div#loadplace img {
 	display    : block;
 	width      : 580px;
 	min-height : 500px;
 }
 
-article.content  div.logo ul li:hover {
+article.content  div ul li:hover {
 	background-color : #444c44;
 	margin-left      : 10px;
 }
