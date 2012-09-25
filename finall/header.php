@@ -5,12 +5,12 @@
 	<title>زحمتی</title>
 	<link rel="stylesheet" type="text/css" href="reset.css" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
-	<link rel="shortcut icon" href='../favicon.ico' />
-	<script type="text/javascript" src="../zepto.min.js"></script>
+	<link rel="shortcut icon" href='./favicon.ico' />
+	<script type="text/javascript" src="./zepto.min.js"></script>
 	<script type="text/javascript" src="scripts.js"></script>
 
 	<!--[if lt IE 9]>
-     <script src="../html5shiv.js"></script>
+     <script src="./html5shiv.js"></script>
 	<![endif]-->
 </head>
 <body>
@@ -28,7 +28,7 @@
 				<li class="clear"></li>
 			</menu>
 		</nav>
-		<section class="logo"><a href="index.php"><img src="../images/zahmati-logo.png" alt="zahmati" /></a></section>
+		<section class="logo"><a href="index.php"><img src="./images/zahmati-logo.png" alt="zahmati" /></a></section>
 		<div class="clear"></div>
 	</header>
 	<article class="content">

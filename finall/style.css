@@ -332,6 +332,6 @@ article.content  div.biography p span {
 }
 
 div.biography div.persian p{
-	float: right;
+	float     : right;
 	direction : rtl ;
 }

@@ -1,16 +1,16 @@
 <?php
 
-	include "./header.php";
-
+	include './header.php';
 ?>
-<div class="logo">
+
+		<div class="logo">
 			<div class="little">
 				<div id="prearrow"></div>
 				<div class="little-slide">
 					<ul>
 						<?php 
-							$logo_thumb_images_path = "../images/thumbnail/logo" ;
-							$logo_images            = "../images/logo" ;
+							$logo_thumb_images_path = "./images/thumbnail/logo" ;
+							$logo_images            = "./images/logo" ;
 							$logo_thumb_images      = scandir($logo_thumb_images_path);
 
 							foreach( $logo_thumb_images as $logo_thumb_image ) {
@@ -29,10 +29,9 @@
 				<div id="nextarrow"></div>
 			</div>
 			<div id="loadplace">
-				<img src="../images/logo/atolie-sarv.jpg" alt="" />
+				<img src="./images/logo/atolie-sarv.jpg" alt="" />
 			</div>
 		</div>
 		<?php
 
 			include './footer.php';
-

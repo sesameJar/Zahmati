@@ -8,8 +8,8 @@
 				<div class="little-slide">
 					<ul>
 						<?php 
-							$logo_thumb_images_path = "../images/thumbnail/others" ;
-							$logo_images            = "../images/others" ;
+							$logo_thumb_images_path = "./images/thumbnail/others" ;
+							$logo_images            = "./images/others" ;
 							$logo_thumb_images      = scandir($logo_thumb_images_path);
 
 							foreach( $logo_thumb_images as $logo_thumb_image ) {
@@ -28,7 +28,7 @@
 				<div id="nextarrow"></div>
 			</div>
 			<div id="loadplace">
-				<img src="../images/others/PINK-baby-gallery.jpg" alt="" />
+				<img src="./images/others/PINK-baby-gallery.jpg" alt="" />
 			</div>
 		</div>
 		<?php
